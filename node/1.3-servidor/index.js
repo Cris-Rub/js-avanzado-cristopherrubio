@@ -1,5 +1,6 @@
 const http=require('http');
 
+/* Creating a server. */
 const server=http.createServer((request, response)=>{
     const status=200; //200=OK
     const mimeType={'Content-type':'text/html'};
